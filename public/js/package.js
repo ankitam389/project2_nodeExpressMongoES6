@@ -36,8 +36,6 @@ async function loadPackage() {
     packageDetails.description;
   document.querySelector("#packageEcosystem").textContent =
     packageDetails.ecosystem;
-  // document.querySelector("#packageRepository").href = packageDetails.repository;
-  // document.querySelector("#packageHomePage").href = packageDetails.homepage;
   document.querySelector("#packageLicense").textContent =
     packageDetails.license;
   document.querySelector("#packageLicenseType").textContent =
@@ -45,6 +43,13 @@ async function loadPackage() {
   document.querySelector("#packageTags").textContent = packageDetails.tags;
   document.querySelector("#packageVersion").textContent =
     packageDetails.version;
+
+  document.querySelector("#hp").textContent = packageDetails.homepage;
+  document.querySelector("#repo").textContent = packageDetails.repository;
+  document.querySelector("#lic").textContent = packageDetails.license;
+  document.querySelector("#ver").textContent = packageDetails.version;
+  document.querySelector("#eco").textContent = packageDetails.ecosystem;
+
   return packageDetails;
 }
 
