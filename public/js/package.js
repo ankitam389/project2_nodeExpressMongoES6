@@ -53,6 +53,11 @@ async function loadPackage() {
   return packageDetails;
 }
 
+// Edit Package
+document.querySelector("#editButton").addEventListener("click", async () => {
+  location.href = `/package-form.html?id=${id}`;
+});
+
 // Delete Package
 const deleteButton = document.querySelector("#deleteButton");
 deleteButton.addEventListener("click", async () => {
