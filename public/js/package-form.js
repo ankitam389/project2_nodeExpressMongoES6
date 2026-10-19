@@ -7,7 +7,8 @@ async function setUp() {
   const loggedIn = await checkLogin();
   if (!loggedIn) {
     document.querySelector("#loginNotice").hidden = false;
-    document.querySelector("#loginForm").hidden = true;
+    document.querySelector("#create").disabled = true;
+    document.querySelector("#cancel").disabled = true;
   }
 }
 
@@ -55,13 +56,6 @@ form.addEventListener("submit", async (event) => {
   }
   const success = await res.json();
   location.href = `/package.html?id=${success._id}`;
-});
-
-// Cancel
-ecosystemSelector.addEventListener("change", () => {
-  pkgs.ecosystem = ecosystemSelector.value;
-  pkgs.page = 1;
-  loadData();
 });
 
 setUp();
