@@ -55,7 +55,7 @@ async function loadPackage() {
 
 // Edit Package
 document.querySelector("#editButton").addEventListener("click", async () => {
-  location.href = `/package-form.html?id=${id}`;
+  location.href = `/edit.html?id=${id}`;
 });
 
 // Delete Package
