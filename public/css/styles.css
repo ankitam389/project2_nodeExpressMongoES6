@@ -1,6 +1,5 @@
 /* Bootstrap covers almost everything; these fill the gaps. */
 
-
 .dialog {
   width: calc(100% - 2rem);
   max-width: 440px;
