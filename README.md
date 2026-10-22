@@ -6,7 +6,12 @@ Kaleb Maloof and Vincent Putiri
 
 ## Class Link
 
-[CS5610 Web Development, Northeastern University](https://northeastern.instructure.com/courses/261032)
+[CS5610 Web Development, Northeastern University](https://johnguerra.co/classes/webDevelopment_online_fall_2026/index.html)
+
+## Links
+Deployed app: [Live Server](link to the live server)
+Design Document: need to create design document and add the path to the design document like this-> [Design Document](link to the design document)
+(mentioned in the rubric)
 
 ## Project Objective
 
@@ -23,6 +28,9 @@ The 3,000 seeded packages were fetched on October 12, 2026 by `npm run seed:fetc
 | Packagist | 500      | [Packagist popular packages](https://packagist.org/explore/popular)                                                                     | [Packagist metadata API](https://packagist.org/apidoc#get-package-metadata-v2)     |
 
 License IDs follow the [SPDX License List](https://spdx.org/licenses/).
+
+## How to Use
+Instructions on how to use the website (mentioned in the rubric)
 
 ## Screenshot
 
